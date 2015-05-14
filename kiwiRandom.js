@@ -218,7 +218,7 @@ choiceState.getDiscr = function(){
 		}
 	}
 	
-	ajaxRequest.open("GET", "getDiscr.php", true)
+	ajaxRequest.open("GET", "http://www.carmencas.nl/montecarlo/getDiscr.php", true)
 	ajaxRequest.send();
 };	
 
@@ -259,7 +259,7 @@ choiceState.uploadL2 = function(){
 	
 	$.ajax({
 		type: 'POST',
-		url: "/montecarlo/saveL2.php",
+		url: "http://www.carmencas.nl/montecarlo/saveL2.php",
 		data: {data:params},
 		success: function (response)
 		{
