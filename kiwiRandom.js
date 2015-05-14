@@ -346,7 +346,7 @@ choiceState.update = function(){
 	}
 	else if ((this.mouse.isDown) && (this.mouse.x > 600)){
 		
-		this.game.input.mouse.reset();
+		//this.game.input.mouse.reset();
 		
 		if ((this.mouse.x > 625)&& (this.mouse.x < 775) && (this.mouse.y > 500) && (this.mouse.y < 575)){
 			this.status = 2;
