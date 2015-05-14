@@ -31,7 +31,7 @@ choiceState.create = function(){
 	this.redText = new Kiwi.GameObjects.TextField(this, "Set of X", 645, 420, "#FFFFFF", 30);
 	this.redText2 = new Kiwi.GameObjects.TextField(this, "Plot random points", 627, 530, "#FFFFFF", 18);
 	
-	this.mouse = this.game.input.mouse;	
+	this.mouse = this.game.input;	
 	this.cells = new Kiwi.Group(this);
 	this.graphGroup = new Kiwi.Group(this);
 	
