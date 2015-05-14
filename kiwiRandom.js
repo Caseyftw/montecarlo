@@ -342,7 +342,7 @@ choiceState.update = function(){
 				this.sent = true;
 			}
 		};
-		this.game.input.mouse.reset();
+		//this.game.input.mouse.reset();
 	}
 	else if ((this.mouse.isDown) && (this.mouse.x > 600)){
 		
